@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAKE-OFF</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/sweet-sans-pro" rel="stylesheet">
+</head>
+<body>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <header id="cabecalho">
+                <div class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <h1>TAKE-OFF</h1>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                            <ul class="nav navbar-nav nav-pills">
+                                <li class="nav-item">
+                                    <a href="#inicio" class="nav-link active">Início</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#produtos" class="nav-link">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contato" class="nav-link">Contato</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <section id="carousel">
+            <div class="container">
+                <div id="carousel-fotos" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="5000" class="carousel-item active">
+                            <img class="d-block w-100" src="./imgs/teste1.png" alt="Foto Take 1">
+                        </div>
+                        <div data-bs-interval="5000" class="carousel-item">
+                            <img class="d-block w-100" src="./imgs/teste2.png" alt="Foto Take 2">
+                        </div>
+                        <div data-bs-interval="5000" class="carousel-item">
+                            <img class="d-block w-100" src="./imgs/teste3.png" alt="Foto Take 3">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-fotos" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-fotos" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <h3>Produtos</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./imgloja/crewneck.jpg" alt="Moletom sem capuz preto">
+                            <div class="card-body">
+                                <h5 class="card-title">Elevate Black Crewneck</h5>
+                                <strong class="card-text">R$ 299,90</strong>
+                                <p class="card-text">
+                                    <strong>3x</strong> de <strong>R$ 99,97</strong> sem juros
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <button type="button" class="btn btn-outline-success">
+                                    Adicionar ao carrinho +
+                                </button>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./imgloja/calçamoletompreto.jpg" alt="Calça de moletom preto">
+                            <div class="card-body">
+                                <h5 class="card-title">005_Black Sweatpants</h5>
+                                <strong class="card-text">R$ 269,90</strong>
+                                <p class="card-text">
+                                    <strong>3x</strong> de <strong>R$ 89,97</strong> sem juros
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <button type="button" class="btn btn-outline-success">
+                                    Adicionar ao carrinho +
+                                </button>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./imgloja/moletompreto.jpg" alt="Moletom com capuz preto">
+                            <div class="card-body">
+                                <h5 class="card-title">004_Black Hoodie</h5>
+                                <strong class="card-text">R$ 329,90</strong>
+                                <p class="card-text">
+                                    <strong>3x</strong> de <strong>R$ 109,97</strong> sem juros
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <button type="button" class="btn btn-outline-success">
+                                    Adicionar ao carrinho +
+                                </button>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./imgloja/5panel.jpg" alt="Boné 5panel preto">
+                            <div class="card-body">
+                                <h5 class="card-title">Elevate 5panel Cap</h5>
+                                <strong class="card-text">R$ 149,90</strong>
+                                <p class="card-text">
+                                    <strong>3x</strong> de <strong>R$ 49,97</strong> sem juros
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <button type="button" class="btn btn-outline-success">
+                                    Adicionar ao carrinho +
+                                </button>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./imgloja/moletomazul.jpg" alt="Moletom com capuz azul">
+                            <div class="card-body">
+                                <h5 class="card-title">006_Navy Hoodie</h5>
+                                <strong class="card-text">R$ 329,90</strong>
+                                <p class="card-text">
+                                    <strong>3x</strong> de <strong>R$ 109,97</strong> sem juros
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <button type="button" class="btn btn-outline-success">
+                                    Adicionar ao carrinho +
+                                </button>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./imgloja/calçamoletomazul.jpg" alt="Calça de moletom azul">
+                            <div class="card-body">
+                                <h5 class="card-title">007_Navy Sweatpants</h5>
+                                <strong class="card-text">R$ 269,90</strong>
+                                <p class="card-text">
+                                    <strong>3x</strong> de <strong>R$ 89,97</strong> sem juros
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <button type="button" class="btn btn-outline-success">
+                                    Adicionar ao carrinho +
+                                </button>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row" id="sectabout">
+                    <div class="col-lg-4 col-md-12">
+                        <h3>Entre em contato</h3>
+                        <form>
+                            <label class="form-label" for="nome">Seu nome:</label>
+                            <input class="form-control" type="text" id="nome" required>
+                            <label for="email" class="form-label">Seu E-mail:</label>
+                            <input type="email" class="form-control" id="email" required>
+                            <label for="mensagem" class="form-label">Sua mensagem:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="mx-auto p-2">
+                                <button class="btn btn-outline-success">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-12 ">
+                        <h3>Nossas redes</h3>
+                        <div>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://www.youtube.com/@takeoffcollection">
+                                        <img src="./sociallogos/youtube1.png" alt="Youtube Logo">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/takeoffcollection/">
+                                        <img src="./sociallogos/instagram1.png" alt="Instagram Logo">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/takeoffcollectn">
+                                        <img src="./sociallogos/twitter1.png" alt="Twitter Logo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

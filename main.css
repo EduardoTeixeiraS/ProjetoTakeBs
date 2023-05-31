@@ -1,0 +1,64 @@
+* {
+    font-family: 'Sweet Sans Pro', sans-serif;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #000;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+header,
+#carousel,
+h3,
+.card img,
+#produtos {
+    border-bottom: 1px solid #ccc;
+}
+
+h3 {
+    margin: 25px 0;
+}
+
+.card {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.social-links img {
+    width: 50px;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#sectabout {
+    justify-content: space-between;
+}
+
+form button {
+    width: 100%;
+    margin: 16px 0;
+}
